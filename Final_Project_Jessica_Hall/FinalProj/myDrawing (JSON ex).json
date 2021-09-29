@@ -1,0 +1,257 @@
+[
+  [
+    {
+      "type": "circle",
+      "numberPts": 2,
+      "rotation": 0,
+      "points": [
+        {
+          "x": 193,
+          "y": 175
+        },
+        {
+          "x": 202,
+          "y": 180
+        }
+      ],
+      "ID": 0,
+      "typeNum": 1
+    },
+    {
+      "type": "circle",
+      "numberPts": 2,
+      "rotation": 0,
+      "points": [
+        {
+          "x": 214,
+          "y": 174
+        },
+        {
+          "x": 223,
+          "y": 184
+        }
+      ],
+      "ID": 1,
+      "typeNum": 1
+    }
+  ],
+  [
+    {
+      "type": "line",
+      "numberPts": 2,
+      "rotation": 0,
+      "points": [
+        {
+          "x": 285,
+          "y": 286.6666564941406
+        },
+        {
+          "x": 348,
+          "y": 242.66665649414062
+        }
+      ],
+      "ID": 0,
+      "typeNum": 2
+    },
+    {
+      "type": "line",
+      "numberPts": 2,
+      "rotation": 0,
+      "points": [
+        {
+          "x": 138,
+          "y": 284.6666564941406
+        },
+        {
+          "x": 66,
+          "y": 235.66665649414062
+        }
+      ],
+      "ID": 1,
+      "typeNum": 2
+    },
+    {
+      "type": "line",
+      "numberPts": 2,
+      "rotation": 0,
+      "points": [
+        {
+          "x": 335,
+          "y": 249.66665649414062
+        },
+        {
+          "x": 331,
+          "y": 233.66665649414062
+        }
+      ],
+      "ID": 2,
+      "typeNum": 2
+    },
+    {
+      "type": "line",
+      "numberPts": 2,
+      "rotation": 0,
+      "points": [
+        {
+          "x": 333,
+          "y": 250.66665649414062
+        },
+        {
+          "x": 354,
+          "y": 252.66665649414062
+        }
+      ],
+      "ID": 3,
+      "typeNum": 2
+    },
+    {
+      "type": "line",
+      "numberPts": 2,
+      "rotation": 0,
+      "points": [
+        {
+          "x": 74,
+          "y": 239.66665649414062
+        },
+        {
+          "x": 74,
+          "y": 226.66665649414062
+        }
+      ],
+      "ID": 4,
+      "typeNum": 2
+    },
+    {
+      "type": "line",
+      "numberPts": 2,
+      "rotation": 0,
+      "points": [
+        {
+          "x": 73,
+          "y": 237.66665649414062
+        },
+        {
+          "x": 56,
+          "y": 246.66665649414062
+        }
+      ],
+      "ID": 5,
+      "typeNum": 2
+    }
+  ],
+  [
+    {
+      "type": "triangle",
+      "numberPts": 3,
+      "rotation": 0,
+      "points": [
+        {
+          "x": 208,
+          "y": 194
+        },
+        {
+          "x": 215,
+          "y": 209
+        },
+        {
+          "x": 201,
+          "y": 209
+        }
+      ],
+      "ID": 0,
+      "typeNum": 3
+    }
+  ],
+  [],
+  [],
+  [
+    {
+      "type": "curve",
+      "numberPts": 3,
+      "rotation": 0,
+      "points": [
+        {
+          "x": 189,
+          "y": 208
+        },
+        {
+          "x": 207,
+          "y": 228
+        },
+        {
+          "x": 229,
+          "y": 216
+        }
+      ],
+      "ID": 0,
+      "typeNum": 6
+    }
+  ],
+  [
+    {
+      "type": "ellipse",
+      "numberPts": 2,
+      "rotation": 0,
+      "points": [
+        {
+          "x": 117,
+          "y": 331
+        },
+        {
+          "x": 304,
+          "y": 482
+        }
+      ],
+      "radiusX": 93.5,
+      "radiusY": 75.5,
+      "centerX": 210.5,
+      "centerY": 406.5,
+      "ID": 0,
+      "typeNum": 7
+    },
+    {
+      "type": "ellipse",
+      "numberPts": 2,
+      "rotation": 0,
+      "points": [
+        {
+          "x": 139,
+          "y": 248
+        },
+        {
+          "x": 284,
+          "y": 331
+        }
+      ],
+      "radiusX": 72.5,
+      "radiusY": 41.5,
+      "centerX": 211.5,
+      "centerY": 289.5,
+      "ID": 1,
+      "typeNum": 7
+    },
+    {
+      "type": "ellipse",
+      "numberPts": 2,
+      "rotation": 0,
+      "points": [
+        {
+          "x": 166,
+          "y": 159
+        },
+        {
+          "x": 248,
+          "y": 246
+        }
+      ],
+      "radiusX": 41,
+      "radiusY": 43.5,
+      "centerX": 207,
+      "centerY": 202.5,
+      "ID": 2,
+      "typeNum": 7
+    }
+  ],
+  [],
+  []
+]
