@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+<title>Rubberbanding & Transformations</title>
+
+<script type="text/javascript" src="../Common/webgl-utils.js"></script>
+<script type="text/javascript" src="../Common/initShaders.js"></script>
+<script type="text/javascript" src="../Common/MV.js"></script>
+<script type="text/javascript" src="Final.js"></script>
+</head>
+<div>
+    <p id = "Info" >To draw all shapes other than polygon and curve, click and drag. To draw polygon, click where you want each point,
+         a path will be drawn between each click; to stop drawing the polygon double click to create your last path. To draw a curve, click the three points where you want the curve.
+         To select the shape you want to transform or copy, click the "select" button then click the desired shape in the canvas. To load in a saved 
+         JSON file, click "choose file" then click the "load" button.
+     </p>
+    <button id="line" style="background-color:rgb(14, 28, 68);color:white;" >Line</button>
+    <button id="circle" style="background-color:rgb(14, 28, 68);color:white;">Circle</button>
+    <button id = "rectangle" style="background-color:rgb(14, 28, 68);color:white;">Rectangle</button>
+    <button id="triangle" style="background-color:rgb(14, 28, 68);color:white;">Triangle</button>
+    <button id = "square" style="background-color:rgb(14, 28, 68);color:white;"> Square</button>
+    <button id="polygon" style="background-color:rgb(14, 28, 68);color:white;">Poly-line</button>
+    <button id = "curve" style="background-color:rgb(14, 28, 68);color:white;"> Curve</button>
+    <button id = "ellipse" style="background-color:rgb(14, 28, 68);color:white;"> Ellipse</button>
+    <button id = "pentagon" style="background-color:rgb(14, 28, 68);color:white;"> Pentagon</button>
+
+
+</div>
+<div>
+    <button id="translate" style="background-color:rgb(14, 123, 173);color:white;">Translate</button>
+    <button id = "scale" style="background-color:rgb(14, 123, 173);color:white;"> Scale</button>
+    <button id = "rotate"style="background-color:rgb(14, 123, 173);color:white;">Rotate</button>
+    <button id="define" style="background-color:rgb(14, 123, 173);color:white;">Define</button>
+    <button id = "select" style="background-color:rgb(14, 123, 173);color:white;"> Select</button>
+
+</div>
+<div>
+    <button id = "save" style="background-color:rgb(103, 184, 221);color:black;"> Save JSON</button>
+    <input type="file" id="fileToLoad"style="display:none;">
+    <button id="file2" style="background-color:rgb(103, 184, 221);color:black;"> Choose File</button>
+    <button id = "load" style="background-color:rgb(103, 184, 221);color:black;">Load</button>
+    <button id = "image"style="background-color:rgb(103, 184, 221);color:black;"> Save Image</button>
+</div>
+<div>
+    <button id = "undo" style="background-color:rgb(160, 221, 250);color:black;"> Undo</button>
+    <button id = "copy" style="background-color:rgb(160, 221, 250);color:black;"> Copy</button>
+    <button id = "paste" style="background-color:rgb(160, 221, 250);color:black;"> Paste</button>
+    <button id = "new" style="background-color:rgb(160, 221, 250);color:black;"> New</button>
+
+
+
+</div>
+
+<canvas id="gl-canvas" width="1000" height="512">
+    Oops ... your browser doesn't support the HTML5 canvas element
+</canvas>
+</body>
+</html>
+    
