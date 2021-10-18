@@ -1,5 +1,7 @@
-// Jessica Hall 
-// Computer Graphics I Final Project 2021
+/*Jessica Hall 
+University of Massachuetts Lowell
+Computer Graphics I Final Project 2021
+*/
 "use strict";
 var start_x, start_y;
 var drag = false;
@@ -1601,6 +1603,10 @@ function myScale(numPoints){
     
                     square[selectedId].points[3].x = pt4_x;
                     square[selectedId].points[3].y = pt4_y;
+                    myTranslate(8, og_startx, og_starty);
+                    if(temp_pts.rotation !=0){
+                        myRotate(8,(temp_pts.rotation));
+                    }
                     break;
                 case 9: 
                 for(var b=0; b< temp_pts.numberPts; b++){
