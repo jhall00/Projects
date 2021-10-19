@@ -13,6 +13,11 @@ I used multiple vectors for kRand. I used a vector to hold all the characters in
 probability for following the kgram wasn't zero. I used another vector to hold the indices of the elements 
 of the previous mentioned vector with the 5 highest probabilities of occuring. Then this index was chosen randomly.
 
+How to run:
+make
+./TextGenerator <order k> <Number of characters to generate in string> < input17.txt
+
+
 
 Link to assignment instructions: https://www.cs.uml.edu/ecg/index.php/Comp4spr15/PS6
 
